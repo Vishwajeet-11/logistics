@@ -757,11 +757,11 @@ ul.conat_info li a:hover {
 }
 
 .testimonial .titlepage h2 {
-     color: #fff;
+     color: rgb(0, 0, 0);
 }
 
 .testimonial .titlepage p {
-     color: #fff;
+     color: rgb(0, 0, 0);
      font-size: 17px;
      line-height: 24px;
      font-weight: 500;
@@ -769,7 +769,7 @@ ul.conat_info li a:hover {
 }
 
 .testimonial_box h3 {
-     color: #fff;
+     color: rgb(0, 0, 0);
      font-size: 25px;
      line-height: 36px;
      font-weight: 600;

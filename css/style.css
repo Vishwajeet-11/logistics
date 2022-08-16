@@ -503,7 +503,7 @@ ul.conat_info li a:hover {
 /** about section **/
 
 .about {
-     background-image: url(/ogistic/images/banner.png);
+     background-image: url(/images/banner.png);
      margin-top: -260px;
 }
 
@@ -530,7 +530,7 @@ ul.conat_info li a:hover {
 /* firms section */
 .firms {
      padding-top: 200px;
-     background-image: url(/ogistic/images/banner.png);
+     background-image: url(/images/banner.png);
      /* margin-top: 20px; */
 }
 
@@ -561,7 +561,7 @@ ul.conat_info li a:hover {
 
 .service {
      margin-top: 0px;
-     background-image: url(/ogistic/images/banner.png);
+     background-image: url(/images/banner.png);
      padding: 90px 0;
 }
 
@@ -641,7 +641,7 @@ ul.conat_info li a:hover {
 /** vehicles section **/
 
 .vehicles {
-     background-image: url(/ogistic/images/banner.png);
+     background-image: url(/images/banner.png);
      padding: 70px 0 155px 0;
 }
 
@@ -745,7 +745,7 @@ ul.conat_info li a:hover {
 
 .testimonial {
      padding: 90px 0 90px 0;
-     background-image: url(/ogistic/images/banner.png);
+     background-image: url(/images/banner.png);
      /* border-radius: 50px; */
 }
 
@@ -856,7 +856,7 @@ ul.conat_info li a:hover {
 /** choose section **/
 
 .choose {
-     background-image: url(/ogistic/images/banner.png);
+     background-image: url(/images/banner.png);
      padding-top: 90px;
 }
 
@@ -982,7 +982,7 @@ ul.conat_info li a:hover {
 /** footer **/
 
 .footer {
-     background-image: url(/ogistic/images/banner.png);
+     background-image: url(/images/banner.png);
      margin-top: 90px;
      padding-top: 90px;
      text-align: center;

@@ -35,7 +35,7 @@
 
 html {
      scroll-behavior: smooth;
-     overflow-x: hidden;
+     
 
 }
 
@@ -984,7 +984,7 @@ ul.conat_info li a:hover {
 
 .footer {
      background-image: url(/images/banner.png);
-     margin-top: 90px;
+     margin-top: 0px;
      padding-top: 90px;
      text-align: center;
 }
@@ -1018,7 +1018,9 @@ ul.location_icon li a:hover {
 
 .map {
      margin-right: 80px;
-     /* padding-left: 10%; */
+     padding-left: 10%;
+     height: 100%;
+     width: 100%;
 }
 
 .map figure {

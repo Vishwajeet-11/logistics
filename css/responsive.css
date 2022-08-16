@@ -138,6 +138,7 @@
     .banner_slide {
         padding: 0 80px 0 0px;
     }
+    
     .text-bg {
         max-width: inherit;
     }
@@ -145,10 +146,10 @@
         padding-top: 30px;
     }
     .about {
-        margin-top: 90px;
+        margin-top: 0px;
     }
     .firms{
-        margin-top: 90px;
+        margin-top: 0px;
     }
     #myCarousel a.carousel-control-prev {
         top: 34%;
@@ -232,10 +233,10 @@
         padding-top: 30px;
     }
     .about {
-        margin-top: 90px;
+        margin-top: 0px;
     }
     .firms{
-        margin-top: 90px;
+        margin-top: 0px;
     }
     .text-bg h1 {
         font-size: 36px;
@@ -254,6 +255,12 @@
     .testimonial_box h3 {
         font-size: 15px;
         line-height: 30px;
+    }
+    .about{
+        margin-top: 0px;
+    }
+    .firms{
+        margin-top: 0px;
     }
     .service_box {
         width: 100%;

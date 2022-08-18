@@ -324,7 +324,7 @@ ul.conat_info li a:hover {
 .header {
      width: 100%;
      padding: 10px 20px;
-     background-color: rgba(0, 0, 0, 0.973);
+     background-color: rgba(228, 136, 31, 0.973);
      position: absolute;
      z-index: 999;
 }
@@ -333,8 +333,8 @@ ul.conat_info li a:hover {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.png);
-     /* background-color: rgb(255, 255, 255); */
+     /* background: url(../images/banner.png); */
+     background-color: rgb(255, 255, 255);
      padding: 200px 0px 0px 0px;
      background-size: auto 78%;
      background-repeat: no-repeat;

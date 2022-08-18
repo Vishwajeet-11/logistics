@@ -562,7 +562,8 @@ ul.conat_info li a:hover {
 
 .service {
      margin-top: 0px;
-     background-image: url(/images/banner.png);
+     /* background-image: url(/images/banner.png); */
+     background-color: whitesmoke;
      padding: 90px 0;
 }
 

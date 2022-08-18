@@ -129,6 +129,11 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+
+    .biglogo img{
+        display: none;
+    }
+
     .banner_main {
         padding: 152px 0px 90px 0px;
         background-color: #ffc50c !important;
@@ -208,6 +213,11 @@
 }
 
 @media (max-width: 575px) {
+
+    .biglogo img{
+        display: none;
+    }
+
     .header {
         padding: 30px 0px 15px 0px;
     }

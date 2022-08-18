@@ -344,6 +344,7 @@ ul.conat_info li a:hover {
      text-decoration: none;
    }
    
+  
    /* Page content */
    .content {
      padding: 16px;
@@ -554,6 +555,8 @@ ul.conat_info li a:hover {
 
 .about .about_img figure img {
      width: 100%;
+     padding: 0;
+
 }
 
 .about .titlepage p {

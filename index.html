@@ -28,6 +28,19 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <style>
+         @media (min-width: 768px) {
+           .biglogo {
+             display: none;
+           }
+         }
+         @media (min-width: 992px) {
+           .biglogo {
+             display: block;
+           }
+         }
+       </style>
+   
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -76,9 +89,11 @@
       <!-- end header -->
       <!-- banner -->
       <section class="banner_main">
-         <div class="biglogo">
-            <img src="/images/logo.png" alt="">
-         </div>
+         
+            <div class="biglogo">
+               <img src="/images/logo.png" alt="">
+            </div>
+           
          <div id="banner1" class="carousel slide banner_slide" data-ride="carousel">
             <ol class="carousel-indicators">
                <li data-target="#banner1" data-slide-to="0" class="active"></li>
@@ -160,7 +175,7 @@
             <div class="row d_flex">
                <div class="col-md-6">
                   <div class="about_right">
-                     <figure><img src="images/about.png" alt="#"/></figure>
+                     <figure><img src="images/about.jpeg" alt="#"/></figure>
                   </div>
                </div>
                <div class="col-md-6">

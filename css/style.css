@@ -324,31 +324,69 @@ ul.conat_info li a:hover {
 .header {
      width: 100%;
      padding: 10px 20px;
-     background-color: rgba(228, 136, 31, 0.973);
+     background-color: rgb(235, 102, 14);
      position: absolute;
      z-index: 999;
 }
 
+#navbar {
+     overflow: hidden;
+     background-color: #333;
+   }
+   
+   /* Navbar links */
+   #navbar a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px;
+     text-decoration: none;
+   }
+   
+   /* Page content */
+   .content {
+     padding: 16px;
+   }
+   
+   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+   .sticky {
+     position: fixed;
+     top: 0;
+     width: 100%;
+   }
+   
+   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+   .sticky + .content {
+     padding-top: 60px;
+   }
 
 /** banner section **/
 
 .banner_main {
      /* background: url(../images/banner.png); */
-     background-color: rgb(255, 255, 255);
-     padding: 200px 0px 0px 0px;
+     background-color: rgb(245, 245, 245);
+     padding: 120px 0px 0px 0px;
      background-size: auto 78%;
      background-repeat: no-repeat;
      min-height: 1150px;
      background-position: right top;
+     margin-right: 0%;
      /* background-color: yellow; */
 }
 
+.biglogo img{
+     height: 150px;
+     margin-left: 150px;
+     
+}
 .text-bg {
-     margin-top: 70px;
+     margin-top: 30px;
      text-align: left;
      float: right;
      max-width: 430px;
      width: 100%;
+     
 }
 
 .text-bg h1 {
@@ -417,6 +455,7 @@ ul.conat_info li a:hover {
 .get_now:hover {
      background-color: #000;
 }
+
 
 #banner1 .carousel-caption {
      position: inherit;
@@ -504,7 +543,8 @@ ul.conat_info li a:hover {
 /** about section **/
 
 .about {
-     background-image: url(/images/banner.png);
+     /* background-image: url(/images/banner.png); */
+     background-color: whitesmoke;
      margin-top: -260px;
 }
 
@@ -645,7 +685,8 @@ ul.conat_info li a:hover {
 /** vehicles section **/
 
 .vehicles {
-     background-image: url(/images/banner.png);
+     /* background-image: url(/images/banner.png); */
+     background-color: whitesmoke;
      padding: 70px 0 155px 0;
 }
 
@@ -749,7 +790,8 @@ ul.conat_info li a:hover {
 
 .testimonial {
      padding: 90px 0 90px 0;
-     background-image: url(/images/banner.png);
+     /* background-image: url(/images/banner.png); */
+     background-color: whitesmoke;
      /* border-radius: 50px; */
 }
 
@@ -860,7 +902,8 @@ ul.conat_info li a:hover {
 /** choose section **/
 
 .choose {
-     background-image: url(/images/banner.png);
+     /* background-image: url(/images/banner.png); */
+     background-color: whitesmoke;
      padding-top: 90px;
 }
 
@@ -986,7 +1029,8 @@ ul.conat_info li a:hover {
 /** footer **/
 
 .footer {
-     background-image: url(/images/banner.png);
+     /* background-image: url(/images/banner.png); */
+     background-color: whitesmoke;
      margin-top: 0px;
      padding-top: 90px;
      text-align: center;
